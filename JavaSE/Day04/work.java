@@ -3,32 +3,32 @@ import java.util.Scanner;
 public class work{
 	public static void main(String[] args){
 		long a = 0;
-		System.out.println("ÊäÈëÒ»¸öÊı");
-		//´Ó¼üÅÌÊäÈëÒ»¸öÊı
+		System.out.println("è¾“å…¥ä¸€ä¸ªæ•°");
+		//ä»é”®ç›˜è¾“å…¥ä¸€ä¸ªæ•°
 		
 		Scanner sc = new Scanner(System.in);
 		
 		long i = sc.nextInt();
 		
-		//ÒòÎªÖ®ºóµÄi»á±ä£¬ËùÒÔÏÈ¸³Öµ¸øl
+		//å› ä¸ºä¹‹åçš„iä¼šå˜ï¼Œæ‰€ä»¥å…ˆèµ‹å€¼ç»™l
 		
 		long l = i ;
 		
-		//Êä³öÕâ¸öÊıÊÇ¼¸Î»Êı
+		//è¾“å‡ºè¿™ä¸ªæ•°æ˜¯å‡ ä½æ•°
 		
-		System.out.println("ÄãÊäÈëµÄ" + i + "ÊÇ" + (i + "").length() + "Î»Êı");
+		System.out.println("ä½ è¾“å…¥çš„" + (i + "") + "æ˜¯" + (i + "").length() + "ä½æ•°");
 		
-		//Í¨¹ıforÑ­»·  ÈÃÕâ¸öÊıÊ×Î²½»»» µÃµ½ a
+		//é€šè¿‡forå¾ªç¯  è®©è¿™ä¸ªæ•°é¦–å°¾äº¤æ¢ å¾—åˆ° a
 		
 		for (int j=0;j<(i + "").length();j++){
 			a = a *10+i%10;
 			i = i/10;
 		}
-		//ÅĞ¶ÏÊ×Î²½»»»ºóÊÇ·ñµÈÓÚÔ­Öµ
+		//åˆ¤æ–­é¦–å°¾äº¤æ¢åæ˜¯å¦ç­‰äºåŸå€¼
 		if(a==l){
-			System.out.println("ÄãÊäÈëµÄ" + l + "ÊÇ»ØÎÄÊı");
+			System.out.println("ä½ è¾“å…¥çš„" + l + "æ˜¯å›æ–‡æ•°");
 		}else{
-			System.out.println("ÄãÊäÈëµÄ" + l + "²»ÊÇ»ØÎÄÊı");
+			System.out.println("ä½ è¾“å…¥çš„" + l + "ä¸æ˜¯å›æ–‡æ•°");
 		}
 	}
 
