@@ -177,25 +177,25 @@ public class SuoHa {
 		// 验牌
 		sh.checkCards();
 		// 玩家报名
-		sh.initPlayers("春哥", "队长", "世玉", "金鹏");
+		sh.initPlayers("万利", "老爷", "大哥", "小老表");
 		// 洗牌
 		sh.washCards();
 		// 还没开始抓牌
 		sh.initPlaterCards();
-		// 发牌 每次都是先发世玉 发5次
-		sh.sendCards("世玉",1);
+		// 发牌 每次都是先发老爷 发5次
+		sh.sendCards("老爷",1);
 		sh.showCards();
 		
-		sh.sendCards("世玉",2);
+		sh.sendCards("老爷",2);
 		sh.showCards();
 		
-		sh.sendCards("世玉",3);
+		sh.sendCards("老爷",3);
 		sh.showCards();
 		
-		sh.sendCards("世玉",4);
+		sh.sendCards("老爷",4);
 		sh.showCards();
 		
-		sh.sendCards("世玉",5);
+		sh.sendCards("老爷",5);
 		sh.showCards();
 
 	}
