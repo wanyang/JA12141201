@@ -22,8 +22,8 @@ public class ArrayScore{
 		System.out.println("------------------------------------------------");
 // **********************输出学员的每门课程的成绩************************
 
-		System.out.println("              学生成绩");
-		System.out.println("      coreC++    coreJava Servlet   JSP      EJB");
+		System.out.println("                     学生成绩");
+		System.out.println("      coreC++  coreJava Servlet   JSP      EJB");
 		for(int i=0;i<20;i++){
 			System.out.print(i + "号学生 ");
 			for(int j=0;j<5;j++){
@@ -41,6 +41,7 @@ public class ArrayScore{
 		}
 		System.out.println("------------------------------------------------");
 // ***********************所有学员的某门课程的平均分**********************
+		System.out.println("某门课程的平均分:");
 		System.out.println(" coreC++  coreJava  Servlet    JSP    EJB");
 		for(int i=0;i<5;i++){
 			for(int j=0;j<20;j++){
